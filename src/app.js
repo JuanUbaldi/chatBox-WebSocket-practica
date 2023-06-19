@@ -39,3 +39,5 @@ app.set("view engine", "handlebars");
 
 //rutas socket
 app.use("/test-socket", testSocketRouter);
+
+//DEPLOY EN GLITCH: LA PAGINA ESTA EN ESTA URL : https://quark-maroon-wisteria.glitch.me/test-socket
