@@ -1,0 +1,17 @@
+<h1 style="color:brown">Rewind</h1>
+
+<input
+  style=" border: 1px solid brown; border-radius: 20px; margin-bottom:20px"
+  type="text"
+  name="chatbox"
+  id="chat-box"
+  placeholder="escribe lo que quieras"
+  value=""
+/>
+
+<div id="div-msgs"></div>
+
+{{! estos scripts activan el socket }}
+<script src="/socket.io/socket.io.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="/js/index.js"></script>
